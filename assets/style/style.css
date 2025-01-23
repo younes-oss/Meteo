@@ -13,6 +13,46 @@ body{
 
 .custom-width {
     max-width: 500px;
-    margin-top: 10px;
-       
+     
+}
+.custom-image {
+   margin-left: 40px;
+
+}
+.reduced-spacing {
+    margin-bottom: -26px;
+    margin-top: -13px;
+}
+
+.input-group {
+    margin-bottom: 0; /* Supprime les marges par défaut si nécessaire */
+}
+
+.content {
+    margin-top: 0;
+}
+
+.cont{
+    background-color: white;
+    display: flex;
+    width:50%;
+    margin: auto;
+    justify-content: space-around;
+}
+.first img{
+    width: 35px;
+    height: 35px;
+}
+
+.second img{
+    width: 35px;
+    height: 35px;
+}
+.first {
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    align-items: center;
 }
