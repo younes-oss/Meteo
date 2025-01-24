@@ -40,7 +40,7 @@ body{
     justify-content: space-evenly;
     height: 35px;
     margin-top: -44px;
-    border-width: 0 2px 2px 0;
+    border-width: 0 2px 1px 0;
     border-color: black;
     border-style: solid;
     border-radius: 5px; /* Coins arrondis */
@@ -83,10 +83,12 @@ body{
 
 .card {
     background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    border-width: 2px 2px 2px 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9); /* Ombre douce */
+    padding: 10px;
     text-align: center;
     width: 22%; /* Chaque carte occupe environ 1/4 de la largeur */
 }
